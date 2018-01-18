@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * @Author lvmingliang_glut@163.com
  * @Date 2018/1/18 10:21
- * @Description StudentDAO访问杰克实现类，通过springJDBC始的JDBC方式操作
+ * @Description StudentDAO访问杰克实现类，通过springJDBC的方式操作
  **/
 @Data
 public class StudentDAOSpringJdbcImpl implements StudentDAO {

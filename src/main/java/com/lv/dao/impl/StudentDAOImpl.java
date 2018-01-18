@@ -20,7 +20,6 @@ import java.util.List;
 @Repository
 public class StudentDAOImpl implements StudentDAO {
     public List<Student> query() {
-
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;

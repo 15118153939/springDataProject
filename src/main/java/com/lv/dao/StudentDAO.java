@@ -16,7 +16,6 @@ public interface StudentDAO {
      *
      *查询所有学生
      */
-
     public List<Student> query();
 
     public int save(Student student);

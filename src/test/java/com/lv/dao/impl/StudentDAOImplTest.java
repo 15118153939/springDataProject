@@ -18,7 +18,6 @@ public class StudentDAOImplTest {
     public void query() throws Exception {
 
         StudentDAO studentDAO = new StudentDAOImpl();
-
         List<Student> studentList = studentDAO.query();
 
         for (Student s:studentList){
@@ -30,7 +29,7 @@ public class StudentDAOImplTest {
     public void save() throws Exception{
         StudentDAO studentDAO = new StudentDAOImpl();
         Student student = new Student();
-        student.setName("小宝");
+        student.setName("大宝");
         student.setAge(18);
         studentDAO.save(student);
     }

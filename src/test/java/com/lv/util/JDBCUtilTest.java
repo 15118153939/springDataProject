@@ -15,9 +15,7 @@ import static org.junit.Assert.*;
 public class JDBCUtilTest {
     @Test
     public void getConnection() throws Exception {
-
         Connection con =JDBCUtil.getConnection();
-
         Assert.assertNotNull(con);
     }
 
