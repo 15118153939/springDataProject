@@ -279,6 +279,8 @@ public interface EmployeeRepostory {
 
 查询方法规则：防范定义规则和使用
 
+![命名规则](https://github.com/15118153939/springDataProject/blob/spring-data/src/main/resources/img/gz.png)
+
 弊端：
 ```
 1)：方法名讳比较长，约定大于配置
